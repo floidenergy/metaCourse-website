@@ -1,0 +1,56 @@
+/** @format */
+
+@import "../../scss/colors.scss";
+
+.collectionCard {
+	width: 23%;
+	background-color: $white;
+	padding: 10px;
+	border-radius: 15px;
+
+	.thumbnail {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: 1fr, 1.5fr;
+		gap: 10px;
+		border-radius: 10px;
+		overflow: hidden;
+		img {
+			width: 100%;
+			aspect-ratio: 16/ 9;
+			object-fit: cover;
+			&:last-of-type {
+				grid-column: 1 / 4;
+				grid-row: 2 / 3;
+			}
+		}
+		.nullImage {
+			width: 100%;
+			height: 100%;
+			background-color: $gray;
+		}
+	}
+	.footerContainer {
+		padding: 10px 0;
+		gap: 10px;
+		.info {
+			p {
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+		}
+		.actions {
+			display: flex;
+			justify-content: space-between;
+			gap: 10px;
+			a {
+				text-align: center;
+				width: 100%;
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+		}
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"website": {
+		"name": "website name",
+		"copyrights": "all rights reserved",
+		"address": "street N° 08, 25210, Didouche Mourad, Algeirs"
+	},
+	"navbar": {
+		"searchLabel": "Search for anything here",
+		"Categories": "Categories",
+		"AboutUs": "About Us",
+		"ContactUs": "Contact us"
+	},
+	"hero": {
+		"title": "your gateway to\na world of knowledge and skill\nenhancement.",
+		"description": "Our website offers an extensive collection of downloadable courses in the form of convenient PDF files, designed to empower you with the tools you need to succee",
+		"action": "find a course"
+	},
+	"wilayasDisplay": {
+		"title": "Our courses From other Wilayas"
+	},
+	"explore": {
+		"linkText": "see more",
+		"title":"Explore"
+	},
+	"card": {
+		"download": "download",
+		"view": "see more",
+		"courses": "courses"
+	},
+	"collection": {
+		"title": "Collections"
+	}
+
+}

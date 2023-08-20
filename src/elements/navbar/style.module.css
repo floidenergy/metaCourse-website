@@ -1,0 +1,102 @@
+/** @format */
+.navBar {
+  z-index: 2;
+  background-color: white;
+  width: 100vw;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 30px;
+}
+.navBar .navLogo {
+  height: 100%;
+  padding: 5px 5px 5px 50px;
+  width: 33.3333333333%;
+}
+.navBar .navLogo img {
+  height: 100%;
+}
+.navBar .navSearchBar {
+  width: 33.3333333333%;
+}
+.navBar .navSearchBar form div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1.8px solid gray;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.navBar .navSearchBar form div input {
+  padding: 5px;
+  width: 100%;
+  border: none;
+  font-family: Poppins;
+  outline: none;
+}
+.navBar .navList {
+  width: 33.3333333333%;
+}
+.navBar .navList ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.navBar .navList ul li:hover {
+  text-decoration: underline;
+}
+.navBar .navList ul li a {
+  text-transform: capitalize;
+  color: black;
+}
+.navBar .navList ul li .langDropdown {
+  position: relative;
+}
+.navBar .navList ul li .langDropdown::after {
+  content: attr(lang);
+  color: white;
+  background-color: darkred;
+  display: inline-block;
+  min-width: -moz-max-content;
+  min-width: max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
+  padding: 2px 4px;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 100%;
+  position: absolute;
+  top: -20%;
+  right: -25%;
+  font-weight: 500;
+}
+.navBar .navList ul li .langDropdown:hover .dropdownMenue {
+  display: flex;
+}
+.navBar .navList ul li .langDropdown svg {
+  fill: green;
+  height: 20px;
+  width: 25px;
+}
+.navBar .navList ul li .dropdownMenue {
+  position: absolute;
+  left: 0;
+  transform: translateX(-50%);
+  display: none;
+  flex-direction: column;
+  background-color: #fff;
+}
+.navBar .navList ul li .dropdownMenue li {
+  display: inline-block;
+  padding: 0 10px;
+  min-width: -moz-max-content;
+  min-width: max-content;
+}
+.navBar .navList ul li .dropdownMenue li:hover {
+  background-color: #e0e0e0;
+}/*# sourceMappingURL=style.module.css.map */

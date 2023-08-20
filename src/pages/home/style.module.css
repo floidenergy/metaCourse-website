@@ -1,0 +1,108 @@
+/** @format */
+.hero {
+  width: 100vw;
+  height: 90vh;
+  background-color: #E7FFE3;
+  display: flex;
+  align-items: center;
+}
+.hero .heroDescription {
+  width: 75%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1em;
+}
+.hero .heroDescription .title {
+  text-transform: capitalize;
+  font-size: 3em;
+  font-weight: bolder;
+  line-height: 1.2em;
+}
+.hero .heroDescription .description {
+  text-transform: capitalize;
+  width: 80%;
+}
+.hero .heroImage {
+  height: 100%;
+  width: 40%;
+  position: relative;
+  background-color: #2aa819;
+}
+.hero .heroImage img {
+  height: 100%;
+}
+@media screen and (max-width: 900px) {
+  .hero {
+    display: block;
+  }
+  .hero .heroDescription {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .hero .heroDescription a {
+    text-align: center;
+  }
+  .hero .heroImage {
+    display: none;
+  }
+}
+
+.wilayas {
+  padding: 5em 0px;
+}
+.wilayas .wilayasListContainer {
+  margin-top: 2em;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.wilayas .wilayasListContainer .wilaya {
+  padding: 5px 15px;
+  border-radius: 25px;
+  display: flex;
+  gap: 25px;
+}
+.wilayas .wilayasListContainer .wilaya .name {
+  color: #fff;
+  text-transform: capitalize;
+}
+.wilayas .wilayasListContainer .wilaya .numberOfCourses {
+  width: 1.5em;
+  height: 1.5em;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 100%;
+  color: #0C0C0C;
+}
+
+.explore {
+  padding: 5rem 8rem;
+}
+.explore .header {
+  margin-bottom: 25px;
+}
+.explore .coursesCardContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.collections {
+  padding: 5rem 6rem;
+}
+.collections .header {
+  margin-bottom: 25px;
+}
+.collections .collectionCardContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}/*# sourceMappingURL=style.module.css.map */

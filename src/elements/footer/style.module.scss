@@ -1,0 +1,71 @@
+/** @format */
+
+@import "../../scss/colors.scss";
+
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 25px;
+	.navContainer {
+		width: 100%;
+		ul {
+			display: flex;
+			flex-direction: row;
+			gap: 25px;
+			justify-content: center;
+			list-style: none;
+			padding: 25px 0;
+			border-bottom: 1px solid white;
+			li a {
+				text-transform: capitalize;
+				text-decoration: underline;
+				color: #fff !important ;
+				font-size: 0.9rem !important;
+			}
+			@media screen and (max-width: 769px) {
+				margin: auto auto;
+			}
+		}
+	}
+	.contactContainer {
+		display: flex;
+		flex-direction: column;
+		padding: 50px;
+		width: 100%;
+		justify-content: space-around;
+    border-bottom: 1px solid white;
+		.subContainer {
+			display: flex;
+			justify-content: space-around;
+			img {
+				width: 25%;
+			}
+			.info {
+				p {
+					margin-bottom: 0.8em;
+				}
+        .socialMedia {
+          display: flex;
+          justify-content: center;
+          gap: 25%;
+          a {
+            svg {
+              color: $white;
+              width: 3em;
+              height: 3em;
+            }
+          }
+        }
+			}
+		}
+	}
+  .copyrights{
+    padding: 25px 0;
+    text-transform: capitalize;
+    .websiteName{
+      text-decoration: underline;
+      font-weight: bold;
+    }
+  }
+}

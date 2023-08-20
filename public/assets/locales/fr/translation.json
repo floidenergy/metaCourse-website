@@ -1,0 +1,38 @@
+{
+	"website": {
+		"name": "Nom de site web",
+		"copyrights": "tous droits réservés",
+		"address": "8rue N° 08, 25210, Didouche Mourad, Alger"
+	},
+	"navbar": {
+		"searchLabel": "Cherchez n'importe quoi ici",
+		"Categories": "catégories",
+		"AboutUs": "About us",
+		"ContactUs": "contactez-nous"
+	},
+	"hero": {
+		"title": "votre porte d’entrée vers un monde de connaissances et d’amélioration des compétences.",
+		"description": "Notre site Web offre une vaste collection de cours téléchargeables sous la forme de fichiers PDF pratiques, conçus pour vous donner les outils dont vous avez besoin pour réussir",
+		"action": "trouver un cours"
+	},
+	"wilayasDisplay": {
+		"title": "Nos Coure Depuis des autre Wilayas"
+	},
+	"explore": {
+		"linkText": "voire plus",
+		"title": "Explorer"
+	},
+	"card": {
+		"download": "télécharger",
+		"view": "voir plus",
+		"courses": "cours"
+	},
+	"collection": {
+		"title": "collections"
+	},
+
+	"footer": {
+		"first": 
+			"Téléchargez votre cours<br/>Obtenir l'application\nà propos de nous\nContactez-nous"
+	}
+}

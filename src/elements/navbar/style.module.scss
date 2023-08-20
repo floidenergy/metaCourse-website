@@ -1,0 +1,114 @@
+/** @format */
+@import "../../scss/colors.scss";
+
+// TODO: MAKE NAVBAR RESPONSIVE (MOBILE FRIENDLY)
+
+.navBar {
+	z-index: 2;
+	background-color: white;
+	width: 100vw;
+	height: 50px;
+	position: sticky;
+	top: 0;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 0 30px;
+	.navLogo {
+		height: 100%;
+		padding: 5px 5px 5px 50px;
+		width: calc(100% / 3);
+		img {
+			height: 100%;
+		}
+	}
+	.navSearchBar {
+		width: calc(100% / 3);
+		form {
+			div {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				gap: 10px;
+				border: 1.8px solid gray;
+				padding: 5px 10px;
+				border-radius: 20px;
+				input {
+					padding: 5px;
+					width: 100%;
+					border: none;
+					font-family: Poppins;
+					outline: none;
+				}
+			}
+		}
+	}
+	.navList {
+		width: calc(100% / 3);
+		ul {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			list-style-type: none;
+			li {
+				&:hover {
+					text-decoration: underline;
+				}
+				a {
+					text-transform: capitalize;
+					color: black;
+				}
+				.langDropdown {
+					position: relative;
+					&::after {
+						content: attr(lang);
+						color: white;
+						background-color: darkred;
+						display: inline-block;
+						min-width: max-content;
+						max-height: max-content;
+						// width: 15px;
+						// height: 15px;
+						padding: 2px 4px;
+						font-size: 10px;
+						text-align: center;
+						border-radius: 100%;
+						position: absolute;
+						top: -20%;
+						right: -25%;
+						font-weight: 500;
+					}
+					&:hover .dropdownMenue{
+						display: flex;
+					}
+					svg {
+						fill: green;
+						height: 20px;
+						width: 25px;
+					}
+				}
+
+				.dropdownMenue {
+
+					position: absolute;
+					// top: calc(100% + 9px);
+					left: 0;
+					transform: translateX(-50%);
+
+					display: none;
+					flex-direction: column;
+					background-color: $white;
+					li {
+						display: inline-block;
+						padding: 0 10px;
+						min-width: max-content;
+
+						&:hover {
+							background-color: $whiteGray;
+						}
+					}
+				}
+			}
+		}
+	}
+}

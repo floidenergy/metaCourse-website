@@ -1,0 +1,645 @@
+{
+	"entries": {
+		"courses": [
+			{
+				"id": 1,
+				"en": {
+					"title": "electricity",
+					"description": "Description of the course or exam.",
+					"wilaya": "setif",
+					"faculty": "Faculty Name",
+					"fieldOfStudy": "Field of Study Name",
+					"tags": ["additional", "tags", "if", "needed"]
+				},
+				"fr": {
+					"title": "electricite",
+					"description": "Description de course ou examen.",
+					"wilaya": "setif",
+					"faculty": "nom de faculty",
+					"fieldOfStudy": "nom de speciality",
+					"tags": ["autre", "tags", "s'ill", "faut"]
+				},
+				"ar": {
+					"title": "الكهرباء",
+					"description": "لمحة عن الدرس أو الإحتبار",
+					"wilaya": "سطيف",
+					"faculty": "إسم الكلية",
+					"fieldOfStudy": "اسم مجال الدراسة",
+					"tags": ["علامات", "إضافية", "إذا", "مزم الأمر"]
+				},
+				"thumbnail": "https://img.freepik.com/premium-psd/school-education-admission-youtube-thumbnail-web-banner-template_475351-411.jpg",
+				"type": "course",
+				"link": "http://link-to-the-pdf-or-image.com/file1.pdf",
+				"year": "2023",
+				"downloadCount": "2",
+				"semester": "6"
+			},
+			{
+				"id": 2,
+				"en": {
+					"title": "office and web",
+					"description": "Description of the course or exam.",
+					"wilaya": "algeirs",
+					"faculty": "Faculty Name",
+					"fieldOfStudy": "Field of Study Name",
+					"tags": ["additional", "tags", "if", "needed"]
+				},
+				"fr": {
+					"title": "Bureau et web",
+					"description": "Description de course ou examen.",
+					"wilaya": "alger",
+					"faculty": "nom de faculty",
+					"fieldOfStudy": "nom de speciality",
+					"tags": ["autre", "tags", "s'ill", "faut"]
+				},
+				"ar": {
+					"title": "المكتب والأنترنات",
+					"description": "لمحة عن الدرس أو الإحتبار",
+					"wilaya": "الجزائر",
+					"faculty": "إسم الكلية",
+					"fieldOfStudy": "اسم مجال الدراسة",
+					"tags": ["علامات", "إضافية", "إذا", "مزم الأمر"]
+				},
+				"thumbnail": "https://img.freepik.com/premium-psd/school-education-admission-youtube-thumbnail-web-banner-template_475351-411.jpg",
+				"type": "course",
+				"link": "http://link-to-the-pdf-or-image.com/file1.pdf",
+				"year": "2023",
+				"downloadCount": "2",
+				"semester": "6"
+			},
+			{
+				"id": 3,
+				"en": {
+					"title": "math's analysist",
+					"description": "Description of the course or exam.",
+					"wilaya": "tizi ouzou",
+					"faculty": "Faculty Name",
+					"fieldOfStudy": "Field of Study Name",
+					"tags": ["additional", "tags", "if", "needed"]
+				},
+				"fr": {
+					"title": "analyse mathematique",
+					"description": "Description de course ou examen.",
+					"wilaya": "tizi ouzou",
+					"faculty": "nom de faculty",
+					"fieldOfStudy": "nom de speciality",
+					"tags": ["autre", "tags", "s'ill", "faut"]
+				},
+				"ar": {
+					"title": "تحليل رياضي",
+					"description": "لمحة عن الدرس أو الإحتبار",
+					"wilaya": "تيزي وزو",
+					"faculty": "إسم الكلية",
+					"fieldOfStudy": "اسم مجال الدراسة",
+					"tags": ["علامات", "إضافية", "إذا", "مزم الأمر"]
+				},
+				"thumbnail": "https://img.freepik.com/premium-psd/school-education-admission-youtube-thumbnail-web-banner-template_475351-411.jpg",
+				"type": "course",
+				"link": "http://link-to-the-pdf-or-image.com/file1.pdf",
+				"year": "2023",
+				"downloadCount": "2",
+				"semester": "6"
+			},
+			{
+				"id": 4,
+				"en": {
+					"title": "algorithm and data structors",
+					"description": "Description of the course or exam.",
+					"wilaya": "setif",
+					"faculty": "Faculty Name",
+					"fieldOfStudy": "Field of Study Name",
+					"tags": ["additional", "tags", "if", "needed"]
+				},
+				"fr": {
+					"title": "algorithm et structors des donnee",
+					"description": "Description de course ou examen.",
+					"wilaya": "setif",
+					"faculty": "nom de faculty",
+					"fieldOfStudy": "nom de speciality",
+					"tags": ["autre", "tags", "s'ill", "faut"]
+				},
+				"ar": {
+					"title": "حوارزميات و هياكل البيانات",
+					"description": "لمحة عن الدرس أو الإحتبار",
+					"wilaya": "سطيف",
+					"faculty": "إسم الكلية",
+					"fieldOfStudy": "اسم مجال الدراسة",
+					"tags": ["علامات", "إضافية", "إذا", "مزم الأمر"]
+				},
+				"thumbnail": "https://img.freepik.com/premium-psd/school-education-admission-youtube-thumbnail-web-banner-template_475351-411.jpg",
+				"type": "course",
+				"link": "http://link-to-the-pdf-or-image.com/file1.pdf",
+				"year": "2023",
+				"downloadCount": "2",
+				"semester": "6"
+			},
+			{
+				"id": 5,
+				"en": {
+					"title": "computer achitecture",
+					"description": "Description of the course or exam.",
+					"wilaya": "setif",
+					"faculty": "Faculty Name",
+					"fieldOfStudy": "Field of Study Name",
+					"tags": ["additional", "tags", "if", "needed"]
+				},
+				"fr": {
+					"title": "architecture de l'ordinateur",
+					"description": "Description de course ou examen.",
+					"wilaya": "setif",
+					"faculty": "nom de faculty",
+					"fieldOfStudy": "nom de speciality",
+					"tags": ["autre", "tags", "s'ill", "faut"]
+				},
+				"ar": {
+					"title": "هيكل الحاسوب",
+					"description": "لمحة عن الدرس أو الإحتبار",
+					"wilaya": "سطيف",
+					"faculty": "إسم الكلية",
+					"fieldOfStudy": "اسم مجال الدراسة",
+					"tags": ["علامات", "إضافية", "إذا", "مزم الأمر"]
+				},
+				"thumbnail": "https://img.freepik.com/premium-psd/school-education-admission-youtube-thumbnail-web-banner-template_475351-411.jpg",
+				"type": "course",
+				"link": "http://link-to-the-pdf-or-image.com/file1.pdf",
+				"year": "2023",
+				"downloadCount": "2",
+				"semester": "6"
+			},
+			{
+				"id": 6,
+				"en": {
+					"title": "algebra",
+					"description": "Description of the course or exam.",
+					"wilaya": "algeirs",
+					"faculty": "Faculty Name",
+					"fieldOfStudy": "Field of Study Name",
+					"tags": ["additional", "tags", "if", "needed"]
+				},
+				"fr": {
+					"title": "algebre",
+					"description": "Description de course ou examen.",
+					"wilaya": "alger",
+					"faculty": "nom de faculty",
+					"fieldOfStudy": "nom de speciality",
+					"tags": ["autre", "tags", "s'ill", "faut"]
+				},
+				"ar": {
+					"title": "الجبر",
+					"description": "لمحة عن الدرس أو الإحتبار",
+					"wilaya": "الجزائر",
+					"faculty": "إسم الكلية",
+					"fieldOfStudy": "اسم مجال الدراسة",
+					"tags": ["علامات", "إضافية", "إذا", "مزم الأمر"]
+				},
+				"thumbnail": "https://img.freepik.com/premium-psd/school-education-admission-youtube-thumbnail-web-banner-template_475351-411.jpg",
+				"type": "course",
+				"link": "http://link-to-the-pdf-or-image.com/file1.pdf",
+				"year": "2023",
+				"downloadCount": "2",
+				"semester": "6"
+			},
+			{
+				"id": 7,
+				"en": {
+					"title": "introduction to operation system 1",
+					"description": "Description of the course or exam.",
+					"wilaya": "tizi ouzou",
+					"faculty": "Faculty Name",
+					"fieldOfStudy": "Field of Study Name",
+					"tags": ["additional", "tags", "if", "needed"]
+				},
+				"fr": {
+					"title": "introduction au systeme d'exploitation 1",
+					"description": "Description de course ou examen.",
+					"wilaya": "tizi ouzou",
+					"faculty": "nom de faculty",
+					"fieldOfStudy": "nom de speciality",
+					"tags": ["autre", "tags", "s'ill", "faut"]
+				},
+				"ar": {
+					"title": "مدخل نظام التشغيل",
+					"description": "لمحة عن الدرس أو الإحتبار",
+					"wilaya": "تيزي وزو",
+					"faculty": "إسم الكلية",
+					"fieldOfStudy": "اسم مجال الدراسة",
+					"tags": ["علامات", "إضافية", "إذا", "مزم الأمر"]
+				},
+				"thumbnail": "https://img.freepik.com/premium-psd/school-education-admission-youtube-thumbnail-web-banner-template_475351-411.jpg",
+				"type": "course",
+				"link": "http://link-to-the-pdf-or-image.com/file1.pdf",
+				"year": "2023",
+				"downloadCount": "2",
+				"semester": "6"
+			},
+			{
+				"id": 8,
+				"en": {
+					"title": "Course Title Here",
+					"description": "Description of the course or exam.",
+					"wilaya": "setif",
+					"faculty": "Faculty Name",
+					"fieldOfStudy": "Field of Study Name",
+					"tags": ["additional", "tags", "if", "needed"]
+				},
+				"fr": {
+					"title": "titre de coure ici",
+					"description": "Description de course ou examen.",
+					"wilaya": "setif",
+					"faculty": "nom de faculty",
+					"fieldOfStudy": "nom de speciality",
+					"tags": ["autre", "tags", "s'ill", "faut"]
+				},
+				"ar": {
+					"title": "عنوان الدرس هنا",
+					"description": "لمحة عن الدرس أو الإحتبار",
+					"wilaya": "سطيف",
+					"faculty": "إسم الكلية",
+					"fieldOfStudy": "اسم مجال الدراسة",
+					"tags": ["علامات", "إضافية", "إذا", "مزم الأمر"]
+				},
+				"thumbnail": "https://img.freepik.com/premium-psd/school-education-admission-youtube-thumbnail-web-banner-template_475351-411.jpg",
+				"type": "course",
+				"link": "http://link-to-the-pdf-or-image.com/file1.pdf",
+				"year": "2023",
+				"downloadCount": "2",
+				"semester": "6"
+			},
+			{
+				"id": 9,
+				"en": {
+					"title": "Course Title Here",
+					"description": "Description of the course or exam.",
+					"wilaya": "setif",
+					"faculty": "Faculty Name",
+					"fieldOfStudy": "Field of Study Name",
+					"tags": ["additional", "tags", "if", "needed"]
+				},
+				"fr": {
+					"title": "titre de coure ici",
+					"description": "Description de course ou examen.",
+					"wilaya": "setif",
+					"faculty": "nom de faculty",
+					"fieldOfStudy": "nom de speciality",
+					"tags": ["autre", "tags", "s'ill", "faut"]
+				},
+				"ar": {
+					"title": "عنوان الدرس هنا",
+					"description": "لمحة عن الدرس أو الإحتبار",
+					"wilaya": "سطيف",
+					"faculty": "إسم الكلية",
+					"fieldOfStudy": "اسم مجال الدراسة",
+					"tags": ["علامات", "إضافية", "إذا", "مزم الأمر"]
+				},
+				"thumbnail": "https://img.freepik.com/premium-psd/school-education-admission-youtube-thumbnail-web-banner-template_475351-411.jpg",
+				"type": "course",
+				"link": "http://link-to-the-pdf-or-image.com/file1.pdf",
+				"year": "2023",
+				"downloadCount": "2",
+				"semester": "6"
+			},
+			{
+				"id": 10,
+				"en": {
+					"title": "Course Title Here",
+					"description": "Description of the course or exam.",
+					"wilaya": "algeirs",
+					"faculty": "Faculty Name",
+					"fieldOfStudy": "Field of Study Name",
+					"tags": ["additional", "tags", "if", "needed"]
+				},
+				"fr": {
+					"title": "titre de coure ici",
+					"description": "Description de course ou examen.",
+					"wilaya": "alger",
+					"faculty": "nom de faculty",
+					"fieldOfStudy": "nom de speciality",
+					"tags": ["autre", "tags", "s'ill", "faut"]
+				},
+				"ar": {
+					"title": "عنوان الدرس هنا",
+					"description": "لمحة عن الدرس أو الإحتبار",
+					"wilaya": "الجزائر",
+					"faculty": "إسم الكلية",
+					"fieldOfStudy": "اسم مجال الدراسة",
+					"tags": ["علامات", "إضافية", "إذا", "مزم الأمر"]
+				},
+				"thumbnail": "https://img.freepik.com/premium-psd/school-education-admission-youtube-thumbnail-web-banner-template_475351-411.jpg",
+				"type": "course",
+				"link": "http://link-to-the-pdf-or-image.com/file1.pdf",
+				"year": "2023",
+				"downloadCount": "2",
+				"semester": "6"
+			},
+			{
+				"id": 11,
+				"en": {
+					"title": "Course Title Here",
+					"description": "Description of the course or exam.",
+					"wilaya": "tizi ouzou",
+					"faculty": "Faculty Name",
+					"fieldOfStudy": "Field of Study Name",
+					"tags": ["additional", "tags", "if", "needed"]
+				},
+				"fr": {
+					"title": "titre de coure ici",
+					"description": "Description de course ou examen.",
+					"wilaya": "tizi ouzou",
+					"faculty": "nom de faculty",
+					"fieldOfStudy": "nom de speciality",
+					"tags": ["autre", "tags", "s'ill", "faut"]
+				},
+				"ar": {
+					"title": "عنوان الدرس هنا",
+					"description": "لمحة عن الدرس أو الإحتبار",
+					"wilaya": "تيزي وزو",
+					"faculty": "إسم الكلية",
+					"fieldOfStudy": "اسم مجال الدراسة",
+					"tags": ["علامات", "إضافية", "إذا", "مزم الأمر"]
+				},
+				"thumbnail": "https://img.freepik.com/premium-psd/school-education-admission-youtube-thumbnail-web-banner-template_475351-411.jpg",
+				"type": "course",
+				"link": "http://link-to-the-pdf-or-image.com/file1.pdf",
+				"year": "2023",
+				"downloadCount": "2",
+				"semester": "6"
+			},
+			{
+				"id": 12,
+				"en": {
+					"title": "Course Title Here",
+					"description": "Description of the course or exam.",
+					"wilaya": "setif",
+					"faculty": "Faculty Name",
+					"fieldOfStudy": "Field of Study Name",
+					"tags": ["additional", "tags", "if", "needed"]
+				},
+				"fr": {
+					"title": "titre de coure ici",
+					"description": "Description de course ou examen.",
+					"wilaya": "setif",
+					"faculty": "nom de faculty",
+					"fieldOfStudy": "nom de speciality",
+					"tags": ["autre", "tags", "s'ill", "faut"]
+				},
+				"ar": {
+					"title": "عنوان الدرس هنا",
+					"description": "لمحة عن الدرس أو الإحتبار",
+					"wilaya": "سطيف",
+					"faculty": "إسم الكلية",
+					"fieldOfStudy": "اسم مجال الدراسة",
+					"tags": ["علامات", "إضافية", "إذا", "مزم الأمر"]
+				},
+				"thumbnail": "https://img.freepik.com/premium-psd/school-education-admission-youtube-thumbnail-web-banner-template_475351-411.jpg",
+				"type": "course",
+				"link": "http://link-to-the-pdf-or-image.com/file1.pdf",
+				"year": "2023",
+				"downloadCount": "2",
+				"semester": "6"
+			}
+		],
+		"collection": [
+			{
+				"id": 1,
+				"downloadCount": "10",
+				"courses": [
+					{ "id": 4 },
+					{ "id": 5 },
+					{ "id": 7 },
+					{ "id": 4 },
+					{ "id": 5 },
+					{ "id": 7 }
+				],
+				"en": {
+					"name": "Collection name here",
+					"description": "Description of the course or exam.",
+					"faculty": "Faculty Name",
+					"fieldOfStudy": "Field of Study Name",
+					"tags": ["additional", "tags"]
+				},
+				"fr": {
+					"name": "Nom de collection ici",
+					"description": "Description de la formation ou l'examen.",
+					"faculty": "nom du faculté",
+					"fieldOfStudy": "nom spécialité",
+					"tags": ["", "autres tags"]
+				},
+				"ar": {
+					"name": "هنا إسم",
+					"description": "لمحة عن الدرس أو الإحتبار",
+					"faculty": "إسم الكلية",
+					"fieldOfStudy": "اسم المجال",
+					"tags": ["", "العلامات الإضافية"]
+				}
+			},
+			{
+				"id": 2,
+				"downloadCount": "10",
+				"courses": [{ "id": 4 }, { "id": 5 }, { "id": 7 }],
+				"en": {
+					"name": "Collection name here",
+					"description": "Description of the course or exam.",
+					"faculty": "Faculty Name",
+					"fieldOfStudy": "Field of Study Name",
+					"tags": ["additional", "tags"]
+				},
+				"fr": {
+					"name": "Nom de collection ici",
+					"description": "Description de la formation ou l'examen.",
+					"faculty": "nom du faculté",
+					"fieldOfStudy": "nom spécialité",
+					"tags": ["", "autres tags"]
+				},
+				"ar": {
+					"name": "هنا إسم",
+					"description": "لمحة عن الدرس أو الإحتبار",
+					"faculty": "إسم الكلية",
+					"fieldOfStudy": "اسم المجال",
+					"tags": ["", "العلامات الإضافية"]
+				}
+			},
+			{
+				"id": 3,
+				"downloadCount": "10",
+				"courses": [{ "id": 4 }, { "id": 5 }, { "id": 7 }],
+				"en": {
+					"name": "Collection name here",
+					"description": "Description of the course or exam.",
+					"faculty": "Faculty Name",
+					"fieldOfStudy": "Field of Study Name",
+					"tags": ["additional", "tags"]
+				},
+				"fr": {
+					"name": "Nom de collection ici",
+					"description": "Description de la formation ou l'examen.",
+					"faculty": "nom du faculté",
+					"fieldOfStudy": "nom spécialité",
+					"tags": ["", "autres tags"]
+				},
+				"ar": {
+					"name": "هنا إسم",
+					"description": "لمحة عن الدرس أو الإحتبار",
+					"faculty": "إسم الكلية",
+					"fieldOfStudy": "اسم المجال",
+					"tags": ["", "العلامات الإضافية"]
+				}
+			},
+			{
+				"id": 4,
+				"downloadCount": "10",
+				"courses": [{ "id": 4 }, { "id": 5 }, { "id": 7 }],
+				"en": {
+					"name": "Collection name here",
+					"description": "Description of the course or exam.",
+					"faculty": "Faculty Name",
+					"fieldOfStudy": "Field of Study Name",
+					"tags": ["additional", "tags"]
+				},
+				"fr": {
+					"name": "Nom de collection ici",
+					"description": "Description de la formation ou l'examen.",
+					"faculty": "nom du faculté",
+					"fieldOfStudy": "nom spécialité",
+					"tags": ["", "autres tags"]
+				},
+				"ar": {
+					"name": "هنا إسم",
+					"description": "لمحة عن الدرس أو الإحتبار",
+					"faculty": "إسم الكلية",
+					"fieldOfStudy": "اسم المجال",
+					"tags": ["", "العلامات الإضافية"]
+				}
+			},
+			{
+				"id": 5,
+				"downloadCount": "10",
+				"courses": [{ "id": 4 }, { "id": 5 }, { "id": 7 }],
+				"en": {
+					"name": "Collection name here",
+					"description": "Description of the course or exam.",
+					"faculty": "Faculty Name",
+					"fieldOfStudy": "Field of Study Name",
+					"tags": ["additional", "tags"]
+				},
+				"fr": {
+					"name": "Nom de collection ici",
+					"description": "Description de la formation ou l'examen.",
+					"faculty": "nom du faculté",
+					"fieldOfStudy": "nom spécialité",
+					"tags": ["", "autres tags"]
+				},
+				"ar": {
+					"name": "هنا إسم",
+					"description": "لمحة عن الدرس أو الإحتبار",
+					"faculty": "إسم الكلية",
+					"fieldOfStudy": "اسم المجال",
+					"tags": ["", "العلامات الإضافية"]
+				}
+			},
+			{
+				"id": 6,
+				"downloadCount": "10",
+				"courses": [{ "id": 4 }, { "id": 5 }, { "id": 7 }],
+				"en": {
+					"name": "Collection name here",
+					"description": "Description of the course or exam.",
+					"faculty": "Faculty Name",
+					"fieldOfStudy": "Field of Study Name",
+					"tags": ["additional", "tags"]
+				},
+				"fr": {
+					"name": "Nom de collection ici",
+					"description": "Description de la formation ou l'examen.",
+					"faculty": "nom du faculté",
+					"fieldOfStudy": "nom spécialité",
+					"tags": ["", "autres tags"]
+				},
+				"ar": {
+					"name": "هنا إسم",
+					"description": "لمحة عن الدرس أو الإحتبار",
+					"faculty": "إسم الكلية",
+					"fieldOfStudy": "اسم المجال",
+					"tags": ["", "العلامات الإضافية"]
+				}
+			},
+			{
+				"id": 7,
+				"downloadCount": "10",
+				"courses": [{ "id": 4 }, { "id": 5 }, { "id": 7 }],
+				"en": {
+					"name": "Collection name here",
+					"description": "Description of the course or exam.",
+					"faculty": "Faculty Name",
+					"fieldOfStudy": "Field of Study Name",
+					"tags": ["additional", "tags"]
+				},
+				"fr": {
+					"name": "Nom de collection ici",
+					"description": "Description de la formation ou l'examen.",
+					"faculty": "nom du faculté",
+					"fieldOfStudy": "nom spécialité",
+					"tags": ["", "autres tags"]
+				},
+				"ar": {
+					"name": "هنا إسم",
+					"description": "لمحة عن الدرس أو الإحتبار",
+					"faculty": "إسم الكلية",
+					"fieldOfStudy": "اسم المجال",
+					"tags": ["", "العلامات الإضافية"]
+				}
+			},
+			{
+				"id": 8,
+				"downloadCount": "10",
+				"courses": [{ "id": 4 }, { "id": 5 }, { "id": 7 }],
+				"en": {
+					"name": "Collection name here",
+					"description": "Description of the course or exam.",
+					"faculty": "Faculty Name",
+					"fieldOfStudy": "Field of Study Name",
+					"tags": ["additional", "tags"]
+				},
+				"fr": {
+					"name": "Nom de collection ici",
+					"description": "Description de la formation ou l'examen.",
+					"faculty": "nom du faculté",
+					"fieldOfStudy": "nom spécialité",
+					"tags": ["", "autres tags"]
+				},
+				"ar": {
+					"name": "هنا إسم",
+					"description": "لمحة عن الدرس أو الإحتبار",
+					"faculty": "إسم الكلية",
+					"fieldOfStudy": "اسم المجال",
+					"tags": ["", "العلامات الإضافية"]
+				}
+			},
+			{
+				"id": 9,
+				"downloadCount": "10",
+				"courses": [{ "id": 4 }, { "id": 5 }, { "id": 7 }],
+				"en": {
+					"name": "Collection name here",
+					"description": "Description of the course or exam.",
+					"faculty": "Faculty Name",
+					"fieldOfStudy": "Field of Study Name",
+					"tags": ["additional", "tags"]
+				},
+				"fr": {
+					"name": "Nom de collection ici",
+					"description": "Description de la formation ou l'examen.",
+					"faculty": "nom du faculté",
+					"fieldOfStudy": "nom spécialité",
+					"tags": ["", "autres tags"]
+				},
+				"ar": {
+					"name": "هنا إسم",
+					"description": "لمحة عن الدرس أو الإحتبار",
+					"faculty": "إسم الكلية",
+					"fieldOfStudy": "اسم المجال",
+					"tags": ["", "العلامات الإضافية"]
+				}
+			}
+		]
+	}
+}

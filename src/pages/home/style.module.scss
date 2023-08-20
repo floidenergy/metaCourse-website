@@ -1,0 +1,110 @@
+/** @format */
+
+@import "../../scss/colors.scss";
+
+.hero {
+	width: 100vw;
+	height: 90vh;
+	background-color: $whiteGreen;
+	display: flex;
+	align-items: center;
+	.heroDescription {
+		width: 75%;
+		padding: 50px;
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		gap: 1em;
+		.title {
+			text-transform: capitalize;
+			font-size: 3em;
+			font-weight: bolder;
+			line-height: 1.2em;
+		}
+		.description {
+			text-transform: capitalize;
+			width: 80%;
+		}
+	}
+	.heroImage {
+		height: 100%;
+		width: 40%;
+		position: relative;
+		background-color: $green;
+		img {
+			height: 100%;
+		}
+	}
+
+	@media screen and (max-width: 900px) {
+		display: block;
+    .heroDescription{
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      a{
+        text-align: center;
+      }
+    }
+    .heroImage{
+      display: none;
+    }
+	}
+}
+
+.wilayas{
+	padding: 5em 0px;
+	.wilayasListContainer{
+		margin-top: 2em;
+		list-style-type: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 25px;
+		.wilaya{
+			padding: 5px 15px;
+			border-radius: 25px;
+			display: flex;
+			gap: 25px;
+			.name{
+				color: $white;
+				text-transform: capitalize;
+			}
+			.numberOfCourses{
+				width: 1.5em;
+				height: 1.5em;
+				text-align: center;
+				font-weight: bold;
+				border-radius: 100%;
+				color: $black;
+			}
+		}
+	}
+}
+
+.explore{
+	padding: 5rem 8rem;
+	.header{
+		margin-bottom: 25px;
+	}
+	.coursesCardContainer{
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		gap: 10px;
+	}
+}
+
+.collections{
+	padding: 5rem 6rem;
+	.header{
+		margin-bottom: 25px;
+	}
+	.collectionCardContainer{
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		gap: 10px;
+	}
+}
