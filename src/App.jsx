@@ -7,6 +7,8 @@ import NavBar from './elements/navbar/Navbar'
 import Footer from './elements/footer/Footer'
 
 import Home from './pages/home/Home'
+import Search from './pages/search/Search'
+import NotFound from './pages/NotFound/NotFound'
 
 export default function App () {
   const { t } = useTranslation()
@@ -16,6 +18,9 @@ export default function App () {
       <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/Search' element={<Search />} />
+        
+        <Route path='/*' element={<NotFound/>} />
       </Routes>
       <Footer />
     </>

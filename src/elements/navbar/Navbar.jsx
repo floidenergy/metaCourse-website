@@ -50,12 +50,12 @@ export default function Navbar () {
       </div>
 
       <div className={style.navSearchBar}>
-        <form>
+        <form action='/Search' method='GET'>
           <div>
             <BsSearch />
             <input
               type='text'
-              name='searchBar'
+              name='searchQuery'
               placeholder={t('navbar.searchLabel')}
               id=''
             />
