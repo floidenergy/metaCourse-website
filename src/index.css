@@ -71,6 +71,15 @@
   background-color: transparent;
 }
 
+/* Text */
+.underlined{
+  text-decoration: underline !important ;
+}
+
+.bold{
+  font-weight : bold! important;
+}
+
 /* elements */
 a {
   font-weight: 500;

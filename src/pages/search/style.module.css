@@ -1,1 +1,81 @@
-/*# sourceMappingURL=style.module.css.map */
+/** @format */
+.searchPage {
+  display: flex;
+  gap: 10px;
+  padding: 25px;
+  align-items: start;
+  width: 100%;
+}
+.searchPage .filterBar {
+  border-radius: 10px;
+  min-width: 25%;
+  padding: 25px 35px;
+  position: sticky;
+  top: 60px;
+}
+.searchPage .filterBar div {
+  margin-bottom: 1.8em;
+}
+.searchPage .filterBar div header {
+  color: #2aa819;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(42, 168, 25, 0.453);
+  margin-bottom: 15px;
+}
+.searchPage .filterBar div .checkboxes {
+  padding-left: 10px;
+}
+.searchPage .filterBar div .checkboxes label {
+  display: block;
+}
+.searchPage .filterBar div .checkboxes label input {
+  margin-right: 5px;
+}
+.searchPage .filterBar div .checkboxes label p {
+  display: inline;
+  text-transform: capitalize;
+}
+.searchPage .coursesPages {
+  border-radius: 10px;
+  padding: 25px 35px;
+  min-height: 50vh;
+  width: 100%;
+}
+.searchPage .coursesPages .header {
+  text-transform: capitalize;
+  border-bottom: 2px solid rgba(42, 168, 25, 0.453);
+  font-size: 1.4em;
+}
+.searchPage .coursesPages .header .searchQuery {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.searchPage .coursesPages .coursesCardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 15px;
+  padding: 25px 0;
+}
+.searchPage .coursesPages .coursesCardsContainer .card {
+  width: 32%;
+}
+.searchPage .coursesPages .pagesButtons {
+  text-align: center;
+}
+.searchPage .coursesPages .pagesButtons button {
+  padding: 5px;
+  margin: 0 10px;
+}
+.searchPage .coursesPages .nothFound {
+  padding: 50px;
+}
+.searchPage .coursesPages .nothFound p {
+  margin-top: 75px;
+  color: rgba(0, 0, 0, 0.2549019608);
+  font-weight: bolder;
+  font-size: xx-large;
+  text-align: center;
+}/*# sourceMappingURL=style.module.css.map */

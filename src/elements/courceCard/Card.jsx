@@ -14,12 +14,13 @@ export default function CourseCard ({
   downloadCount,
   courseName,
   type,
-  downloadLink
+  downloadLink,
+  classname
 }) {
   const { t } = useTranslation()
 
   return (
-    <div className={style.CourseCard}>
+    <div className={`${style.CourseCard} ${classname !== undefined ? classname : ""}`} >
       <ul className={style.tagsContainer}>
         {tags?.map((tag, index) => (
           <li className={`white b-blue`} key={index}>{tag}</li>
