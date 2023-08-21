@@ -12,15 +12,15 @@ export default function Search () {
   const [pages, setPages] = useState()
   const [searchResult, setSearchResult] = useState([])
 
-  // TODO: GET PAGES FROM SEARCH PARAMS
-
+  
   const currentLangCode = localStorage.getItem('language') || 'en'
-
+  
   useEffect(() => {
     setSearchResult(entries.courses)
   }, [])
-
+  
   useEffect(() => {
+    // TODO: GET PAGES FROM SEARCH PARAMS
     setPages(params.get('p') || 0)
   }, [params])
 
