@@ -7,7 +7,7 @@
 					"title": "electricity",
 					"description": "Description of the course or exam.",
 					"wilaya": "setif",
-					"faculty": "Faculty Name",
+					"faculty": "electrical engineer",
 					"fieldOfStudy": "Field of Study Name",
 					"tags": ["additional", "tags", "if", "needed"]
 				},
@@ -15,7 +15,7 @@
 					"title": "electricite",
 					"description": "Description de course ou examen.",
 					"wilaya": "setif",
-					"faculty": "nom de faculty",
+					"faculty": "genie electrique",
 					"fieldOfStudy": "nom de speciality",
 					"tags": ["autre", "tags", "s'ill", "faut"]
 				},
@@ -23,7 +23,7 @@
 					"title": "الكهرباء",
 					"description": "لمحة عن الدرس أو الإحتبار",
 					"wilaya": "سطيف",
-					"faculty": "إسم الكلية",
+					"faculty": "الكلية",
 					"fieldOfStudy": "اسم مجال الدراسة",
 					"tags": ["علامات", "إضافية", "إذا", "مزم الأمر"]
 				},

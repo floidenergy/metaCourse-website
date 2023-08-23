@@ -23,10 +23,16 @@ export default function Search () {
 
   const currentLangCode = localStorage.getItem('language') || 'en'
 
-  const queryRegex = new RegExp(params.get('searchQuery'), 'i')
+  const queryRegex = new RegExp(params.get('searchQuery') || '', 'i')
 
   useEffect(() => {
+    // TODO: CHECK IF THERE IS FILTERING CONDITIONS IN SEARCH PARAMS
+    if (params.get('wilaya')) setWilayasFilter(params.get('wilaya'))
+    if (params.get('faculty')) setFacultiesFilter(params.get('faculty'))
+    if (params.get('field')) setFieldsFilter(params.get('field'))
+
     // TODO: GET PAGES FROM SEARCH PARAMS
+
     setPages(Number(params.get('p')) || 0)
   }, [params])
 
@@ -39,24 +45,28 @@ export default function Search () {
         queryRegex.test(course.ar.title)
     )
 
-    if(wilayasFilter.length > 0)
-    {
-      result = result.filter(item => wilayasFilter.includes(item[currentLangCode].wilaya))
+    if (wilayasFilter.length > 0) {
+      result = result.filter(item =>
+        wilayasFilter.includes(item[currentLangCode].wilaya)
+      )
     }
 
-    if(facultiesFilter.length > 0)
-    {
-      result = result.filter(item => facultiesFilter.includes(item[currentLangCode].wilaya))
+    if (facultiesFilter.length > 0) {
+      result = result.filter(item =>
+        facultiesFilter.includes(item[currentLangCode].faculty)
+      )
     }
 
-    if(fieldsFilter.length > 0)
-    {
-      result = result.filter(item => fieldsFilter.includes(item[currentLangCode].wilaya))
+    if (fieldsFilter.length > 0) {
+      result = result.filter(item =>
+        fieldsFilter.includes(item[currentLangCode].fieldOfStudy)
+      )
     }
 
-    if(yearsFilter.length > 0)
-    {
-      result = result.filter(item => yearsFilter.includes(item[currentLangCode].wilaya))
+    if (yearsFilter.length > 0) {
+      result = result.filter(item =>
+        yearsFilter.includes(item[currentLangCode].year)
+      )
     }
 
     setSearchResult(result)
@@ -219,7 +229,6 @@ export default function Search () {
                       navigate({ search: `?${params.toString()}` })
                     }}
                   >
-                    {console.log(index)}
                     {index + 1}
                   </button>
                 )

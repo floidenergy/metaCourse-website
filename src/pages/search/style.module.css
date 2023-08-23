@@ -31,7 +31,7 @@
   display: block;
 }
 .searchPage .filterBar div .checkboxes label input {
-  margin-right: 5px;
+  margin: 0 5px;
 }
 .searchPage .filterBar div .checkboxes label p {
   display: inline;

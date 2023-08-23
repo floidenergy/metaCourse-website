@@ -30,9 +30,7 @@
 	"collection": {
 		"title": "collections"
 	},
-
-	"footer": {
-		"first": 
-			"Téléchargez votre cours<br/>Obtenir l'application\nà propos de nous\nContactez-nous"
+	"coursePage": {
+		"descriptionTitle": "Description du Cours"
 	}
 }

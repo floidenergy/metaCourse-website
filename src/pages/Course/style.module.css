@@ -1,0 +1,68 @@
+.CourseProfile {
+  padding: 25px;
+}
+.CourseProfile .courseInfo {
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1em;
+  width: 100%;
+}
+.CourseProfile .courseInfo .leftSide {
+  width: 35%;
+}
+.CourseProfile .courseInfo .leftSide img {
+  width: 100%;
+  border-radius: 10px;
+}
+.CourseProfile .courseInfo .leftSide a {
+  width: 100%;
+  text-align: center;
+}
+.CourseProfile .courseInfo .rightSide {
+  width: 65%;
+}
+.CourseProfile .courseInfo .rightSide .title {
+  font-size: xx-large;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+.CourseProfile .courseInfo .rightSide .faculty {
+  font-size: medium;
+  text-transform: capitalize;
+}
+.CourseProfile .courseInfo .rightSide .tagsContainer {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+.CourseProfile .courseInfo .rightSide .tagsContainer li {
+  padding: 2px 7px;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+.CourseProfile .courseInfo .rightSide .about {
+  padding: 25px 0;
+}
+.CourseProfile .suggestion {
+  padding: 20px;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+.CourseProfile .suggestion header {
+  margin: 15px 0;
+  border-bottom: 2px solid green;
+  display: flex;
+  justify-content: space-between;
+}
+.CourseProfile .suggestion header p {
+  text-transform: capitalize;
+  font-size: large;
+}
+.CourseProfile .suggestion .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+}/*# sourceMappingURL=style.module.css.map */

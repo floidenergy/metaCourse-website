@@ -45,7 +45,7 @@ export default function CourseCard ({
           {t('card.download')}
         </Link>
         <Link
-          to={`/courses/${encodeURIComponent(id)}`}
+          to={`/course?id=${encodeURIComponent(id)}`}
           className={`button b-whiteGray black`}
         >
           {t('card.view')}

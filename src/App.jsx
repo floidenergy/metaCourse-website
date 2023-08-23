@@ -8,6 +8,7 @@ import Footer from './elements/footer/Footer'
 
 import Home from './pages/home/Home'
 import Search from './pages/search/Search'
+import Course from './pages/Course/Course'
 import NotFound from './pages/NotFound/NotFound'
 
 export default function App () {
@@ -19,6 +20,7 @@ export default function App () {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/Search' element={<Search />} />
+        <Route path='/Course' element={<Course />} />
         
         <Route path='/*' element={<NotFound/>} />
       </Routes>

@@ -20,7 +20,7 @@
 	},
 	"explore": {
 		"linkText": "مزيد",
-		"title":"إستكشف"
+		"title": "إستكشف"
 	},
 	"card": {
 		"download": "تحميل",
@@ -29,5 +29,8 @@
 	},
 	"collection": {
 		"title": "مجموعات"
+	},
+	"coursePage": {
+		"descriptionTitle": "وصف الدرس"
 	}
 }
