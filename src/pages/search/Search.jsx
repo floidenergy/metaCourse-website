@@ -25,13 +25,10 @@ export default function Search () {
 
   const queryRegex = new RegExp(params.get('searchQuery') || '', 'i')
 
-  useEffect(() => {
-    // TODO: CHECK IF THERE IS FILTERING CONDITIONS IN SEARCH PARAMS
+  useEffect(() => { 
     if (params.get('wilaya')) setWilayasFilter(params.get('wilaya'))
     if (params.get('faculty')) setFacultiesFilter(params.get('faculty'))
     if (params.get('field')) setFieldsFilter(params.get('field'))
-
-    // TODO: GET PAGES FROM SEARCH PARAMS
 
     setPages(Number(params.get('p')) || 0)
   }, [params])

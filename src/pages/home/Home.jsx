@@ -43,7 +43,7 @@ export default function Home () {
           {Object.keys(wilayas).map(key => (
             //TODO: change the link URL to search with the desired wilayas
             <Link
-              to={'#'}
+              to={`/search?wilaya=${key}`}
               key={key}
               className={`${style.wilaya} black b-green`}
             >

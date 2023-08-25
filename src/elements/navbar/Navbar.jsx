@@ -66,13 +66,13 @@ export default function Navbar () {
       <div className={style.navList}>
         <ul>
           <li>
-            <Link>{t('navbar.Categories')} </Link>
+            <Link to={'/search'}>{t('navbar.Categories')} </Link>
           </li>
           <li>
             <Link to={'/aboutUs'}>{t('navbar.AboutUs')}</Link>
           </li>
           <li>
-            <Link to={'contactUs'}>{t('navbar.ContactUs')}</Link>
+            <Link to={'/contactUs'}>{t('navbar.ContactUs')}</Link>
           </li>
           <li>
             <div lang={currentLanguageCode} className={style.langDropdown}>

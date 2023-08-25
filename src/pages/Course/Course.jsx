@@ -44,8 +44,8 @@ export default function Course () {
       <section className={`${style.courseInfo} b-white`}>
         <div className={style.leftSide}>
           <img src={course.thumbnail} alt='' />
-          <Link to={course.link} className={` button white b-green`}>
-            {t('card.download')}
+          <Link  to={course.link} className={` button white b-green`}>
+            {t('card.download')} ({course.downloadCount})
           </Link>
         </div>
         <div className={style.rightSide}>

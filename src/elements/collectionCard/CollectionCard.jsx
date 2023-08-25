@@ -47,8 +47,6 @@ export default function CollectionCard ({
           </p>
         </div>
         <div className={style.actions}>
-          {/* TODO: Add button to add this collection */}
-          {/* TODO: Add button to delete the collection */}
           <Link className={` button white b-green`} to={'#'} type='submit'>
             {t('card.download')}
           </Link>

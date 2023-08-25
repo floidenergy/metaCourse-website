@@ -20,7 +20,7 @@ export default function Footer () {
       <div className={style.navContainer}>
         <ul>
           <li>
-            <Link>{t('navbar.Categories')} </Link>
+            <Link to={'/search'}>{t('navbar.Categories')} </Link>
           </li>
           <li>
             <Link to={'/aboutUs'}>{t('navbar.AboutUs')}</Link>
