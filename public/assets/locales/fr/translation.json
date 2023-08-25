@@ -32,5 +32,15 @@
 	},
 	"coursePage": {
 		"descriptionTitle": "Description du Cours"
+	},
+	"search": {
+		"result": "résultat pour",
+		"notFound": "Je n'ai rien trouvé pour",
+		"filter": {
+			"wilaya": "wilaya",
+			"faculty": "faculté",
+			"field": "spécialité",
+			"year": "année"
+		}
 	}
 }

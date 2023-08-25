@@ -1,6 +1,11 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
+
+import style from './style.module.css'
 
 export default function NotFound () {
-  //TODO: MAKE THIS PAGE
-  return <div>NotFound</div>
+  const navigate = useNavigate();
+  // navigate('/')
+
+  return <main className={style.notFound}>404 NotFound</main>
 }

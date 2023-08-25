@@ -1,1 +1,8 @@
-/*# sourceMappingURL=style.module.css.map */
+.notFound {
+  width: 100vw;
+  text-align: center;
+  padding: 38vh 0;
+  font-weight: bolder;
+  font-size: xxx-large;
+  color: #e0e0e0;
+}/*# sourceMappingURL=style.module.css.map */

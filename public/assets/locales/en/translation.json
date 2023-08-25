@@ -32,6 +32,16 @@
 	},
 	"coursePage": {
 		"descriptionTitle": "Description"
+	},
+	"search": {
+		"result": "result for",
+		"notFound": "Couldn't find anything for",
+		"filter": {
+			"wilaya": "wilaya",
+			"faculty": "faculty",
+			"field": "field",
+			"year": "year"
+		}
 	}
 
 }

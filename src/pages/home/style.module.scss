@@ -37,7 +37,7 @@
 				rgba(42, 168, 25, 0.4),
 				rgba(42, 168, 25, 1)
 			),
-			url("hero_Banner.jpg");
+			url("../../assets/hero_Banner.jpg");
 		background-position: 50%;
 		background-size: cover;
 		// background-color: ;
@@ -56,7 +56,7 @@
 				rgba(42, 168, 25, 0.85),
 				rgba(42, 168, 25, 0.85)
 			),
-			url("hero_Banner.jpg");
+			url("../../assets/hero_Banner.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
 		color: white;
@@ -67,6 +67,8 @@
 			text-align: center;
 			a {
 				text-align: center;
+				background-color: $blue;
+				// border: 1px solid white !important;
 			}
 		}
 		.heroImage {

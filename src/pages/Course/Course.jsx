@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { Helmet } from 'react-helmet'
 
 import style from './style.module.css'
 import { entries } from '../../assets/Coursedatabase.json'
@@ -41,6 +42,10 @@ export default function Course () {
 
   return (
     <main className={`${style.CourseProfile} b-whiteBlue`}>
+      <Helmet>
+        <title>{course[currentLangCode].title} | {t('website.name')}</title>
+        <meta name='description' content={course[currentLangCode].description}/>
+      </Helmet>
       <section className={`${style.courseInfo} b-white`}>
         <div className={style.leftSide}>
           <img src={course.thumbnail} alt='' />

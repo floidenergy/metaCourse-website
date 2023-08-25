@@ -1,5 +1,8 @@
 import { useState, useEffect, useMemo } from 'react'
+import { useTranslation } from 'react-i18next'
 import { useLocation, useNavigate } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
+
 import { BsChevronLeft, BsChevronRight } from 'react-icons/bs'
 
 import style from './style.module.css'
@@ -9,6 +12,8 @@ import CourseCard from '../../elements/courceCard/Card'
 
 export default function Search () {
   const navigate = useNavigate()
+  const {t} = useTranslation();
+  
   const [pages, setPages] = useState()
   const [searchResult, setSearchResult] = useState([])
 
@@ -72,9 +77,12 @@ export default function Search () {
 
   return (
     <main className={style.searchPage + ' b-whiteBlue'}>
+      <Helmet>
+        <title>{t('website.name')} | {params.get('searchQuery')}</title>
+      </Helmet>
       <aside className={style.filterBar + ' b-white'}>
         <div className={style.univ}>
-          <header>Wilaya</header>
+          <header>{t('search.filter.wilaya')}</header>
           <div className={style.checkboxes}>
             {entries.courses
               .map(element => element[currentLangCode].wilaya)
@@ -100,7 +108,7 @@ export default function Search () {
           </div>
         </div>
         <div className={style.faculty}>
-          <header>Faculties:</header>
+          <header>{t('search.filter.faculty')}</header>
           <div className={style.checkboxes}>
             {entries.courses
               .map(element => element[currentLangCode].faculty)
@@ -126,7 +134,7 @@ export default function Search () {
           </div>
         </div>
         <div className={style.field}>
-          <header>Field:</header>
+          <header>{t('search.filter.field')}</header>
           <div className={style.checkboxes}>
             {entries.courses
               .map(element => element[currentLangCode].fieldOfStudy)
@@ -150,7 +158,7 @@ export default function Search () {
           </div>
         </div>
         <div className={style.year}>
-          <header>Year:</header>
+          <header>{t('search.filter.year')}</header>
           <div className={style.checkboxes}>
             {entries.courses
               .map(element => element.year)
@@ -176,7 +184,7 @@ export default function Search () {
       </aside>
       <div className={style.coursesPages + ' b-white'}>
         <header className={style.header}>
-          result for&nbsp;
+          {t('search.result')}&nbsp;
           <span className={style.searchQuery + ' green'}>
             {params.get('searchQuery')}
           </span>
@@ -246,7 +254,7 @@ export default function Search () {
           </>
         ) : (
           <div className={style.nothFound}>
-            <p>Couldn&apos;t find anything for {params.get('searchQuery')}</p>
+            <p>{t('search.notFound')} {params.get('searchQuery')}</p>
           </div>
         )}
       </div>

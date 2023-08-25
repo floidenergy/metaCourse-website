@@ -32,5 +32,15 @@
 	},
 	"coursePage": {
 		"descriptionTitle": "وصف الدرس"
+	},
+	"search": {
+		"result": "النتيجة لـ",
+		"notFound": "لا يمكن العثور على أي شيء لـ",
+		"filter": {
+			"wilaya": "الولاية",
+			"faculty": "الكلية",
+			"field": "التخصص",
+			"year": "السنة"
+		}
 	}
 }
