@@ -44,7 +44,7 @@ export default function Course () {
       <section className={`${style.courseInfo} b-white`}>
         <div className={style.leftSide}>
           <img src={course.thumbnail} alt='' />
-          <Link  to={course.link} className={` button white b-green`}>
+          <Link to={course.link} className={` button white b-green`}>
             {t('card.download')} ({course.downloadCount})
           </Link>
         </div>
@@ -92,6 +92,7 @@ export default function Course () {
               downloadCount={item.downloadCount}
               courseName={item[currentLangCode].title}
               type={`${item[currentLangCode].faculty} - ${item[currentLangCode].fieldOfStudy} - (${item[currentLangCode].wilaya})`}
+              classname={style.card}
             />
           ))}
         </div>
@@ -116,6 +117,7 @@ export default function Course () {
               downloadCount={item.downloadCount}
               courseName={item[currentLangCode].title}
               type={`${item[currentLangCode].faculty} - ${item[currentLangCode].fieldOfStudy} - (${item[currentLangCode].wilaya})`}
+              classname={style.card}
             />
           ))}
         </div>
@@ -140,6 +142,7 @@ export default function Course () {
               downloadCount={item.downloadCount}
               courseName={item[currentLangCode].title}
               type={`${item[currentLangCode].faculty} - ${item[currentLangCode].fieldOfStudy} - (${item[currentLangCode].wilaya})`}
+              classname={style.card}
             />
           ))}
         </div>

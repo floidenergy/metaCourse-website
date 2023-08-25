@@ -1,4 +1,21 @@
 /** @format */
+.navTriggerButton {
+  display: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0.4em;
+  position: fixed;
+  right: 1em;
+  top: 1em;
+  z-index: 2;
+  background-color: #fff;
+  line-height: 0;
+}
+.navTriggerButton svg {
+  width: 2em;
+  height: 2em;
+}
+
 .navBar {
   z-index: 2;
   background-color: white;
@@ -102,4 +119,64 @@
 }
 .navBar .navList ul li .dropdownMenue li:hover {
   background-color: #e0e0e0;
+}
+
+@media screen and (max-width: 1200px) {
+  .navTriggerButton {
+    display: block;
+  }
+  .navBar {
+    transition: 2s ease-out all;
+    width: 45%;
+    height: 100vh;
+    padding: 30px 25px;
+    flex-direction: column;
+    position: fixed;
+    right: -100%;
+    top: 0;
+  }
+  .navBar.activeNavBar {
+    right: 0;
+    transition: 1s ease-out all;
+  }
+  .navBar .navLogo {
+    margin-top: 5em;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+  .navBar .navLogo img {
+    width: 100%;
+  }
+  .navBar .navSearchBar {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .navBar .navList {
+    margin-top: 2em;
+    width: 100%;
+  }
+  .navBar .navList ul {
+    text-align: center;
+    flex-direction: column;
+  }
+  .navBar .navList ul li {
+    width: 100%;
+    padding: 1em;
+    margin: 10px 0;
+  }
+  .navBar .navList ul li .langDropdown {
+    position: absolute;
+    padding: 10px;
+    top: 10px;
+    right: 10px;
+  }
+  .navBar .navList ul li .langDropdown::after {
+    display: none;
+  }
+  .navBar .navList ul li .langDropdown .dropdownMenue li {
+    width: 100% !important;
+    position: relative !important;
+    padding: 2px 10px;
+  }
 }/*# sourceMappingURL=style.module.css.map */

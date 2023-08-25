@@ -28,14 +28,19 @@
   height: 100%;
   width: 40%;
   position: relative;
-  background-color: #2aa819;
+  background-image: linear-gradient(15deg, rgba(42, 168, 25, 0.4), rgb(42, 168, 25)), url("hero_Banner.jpg");
+  background-position: 50%;
+  background-size: cover;
 }
 .hero .heroImage img {
   height: 100%;
 }
 @media screen and (max-width: 900px) {
   .hero {
-    display: block;
+    background-image: linear-gradient(15deg, rgba(42, 168, 25, 0.85), rgba(42, 168, 25, 0.85)), url("hero_Banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
   }
   .hero .heroDescription {
     width: 100%;
@@ -61,6 +66,7 @@
   justify-content: center;
   align-items: center;
   gap: 25px;
+  flex-wrap: wrap;
 }
 .wilayas .wilayasListContainer .wilaya {
   padding: 5px 15px;
@@ -92,6 +98,16 @@
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 10px;
+}
+@media screen and (max-width: 1200px) {
+  .explore .coursesCardContainer .courseCard {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 1200px) and (max-width: 600px) {
+  .explore .coursesCardContainer .courseCard {
+    width: 100%;
+  }
 }
 
 .collections {

@@ -30,48 +30,72 @@
 		height: 100%;
 		width: 40%;
 		position: relative;
-		background-color: $green;
+		// background-image: url('hero_Banner.jpg');
+
+		background-image: linear-gradient(
+				15deg,
+				rgba(42, 168, 25, 0.4),
+				rgba(42, 168, 25, 1)
+			),
+			url("hero_Banner.jpg");
+		background-position: 50%;
+		background-size: cover;
+		// background-color: ;
+		// background-blend-mode: multiply;
+		// background-color: red;
 		img {
 			height: 100%;
 		}
 	}
 
 	@media screen and (max-width: 900px) {
-		display: block;
-    .heroDescription{
-      width: 100%;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      a{
-        text-align: center;
-      }
-    }
-    .heroImage{
-      display: none;
-    }
+		// display: block;
+		// flex-direction: column;
+		background-image: linear-gradient(
+				15deg,
+				rgba(42, 168, 25, 0.85),
+				rgba(42, 168, 25, 0.85)
+			),
+			url("hero_Banner.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		color: white;
+		.heroDescription {
+			width: 100%;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			a {
+				text-align: center;
+			}
+		}
+		.heroImage {
+			display: none;
+			// width: 100%;
+		}
 	}
 }
 
-.wilayas{
+.wilayas {
 	padding: 5em 0px;
-	.wilayasListContainer{
+	.wilayasListContainer {
 		margin-top: 2em;
 		list-style-type: none;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		gap: 25px;
-		.wilaya{
+		flex-wrap: wrap;
+		.wilaya {
 			padding: 5px 15px;
 			border-radius: 25px;
 			display: flex;
 			gap: 25px;
-			.name{
+			.name {
 				color: $white;
 				text-transform: capitalize;
 			}
-			.numberOfCourses{
+			.numberOfCourses {
 				width: 1.5em;
 				height: 1.5em;
 				text-align: center;
@@ -83,25 +107,34 @@
 	}
 }
 
-.explore{
+.explore {
 	padding: 5rem 8rem;
-	.header{
+	.header {
 		margin-bottom: 25px;
 	}
-	.coursesCardContainer{
+	.coursesCardContainer {
 		display: flex;
 		justify-content: space-around;
 		flex-wrap: wrap;
 		gap: 10px;
+		.courseCard {
+			@media screen and (max-width: 1200px) {
+				width: 48%;
+
+				@media screen and (max-width: 600px) {
+					width: 100%;
+				}
+			}
+		}
 	}
 }
 
-.collections{
+.collections {
 	padding: 5rem 6rem;
-	.header{
+	.header {
 		margin-bottom: 25px;
 	}
-	.collectionCardContainer{
+	.collectionCardContainer {
 		display: flex;
 		justify-content: space-around;
 		flex-wrap: wrap;

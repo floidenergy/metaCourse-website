@@ -7,7 +7,7 @@ import style from './style.module.css'
 import { entries } from '../../assets/Coursedatabase.json'
 
 import CourseCard from '../../elements/courceCard/Card'
-import CollectionCard from '../../elements/collectionCard/CollectionCard'
+// import CollectionCard from '../../elements/collectionCard/CollectionCard'
 
 export default function Home () {
   const { t } = useTranslation()
@@ -32,7 +32,6 @@ export default function Home () {
           </Link>
         </div>
         <div className={style.heroImage}>
-          <img src='./hero_Banner.png' alt='' />
         </div>
       </header>
       <section className={`${style.wilayas} b-white`}>
@@ -41,7 +40,6 @@ export default function Home () {
         </p>
         <div className={style.wilayasListContainer}>
           {Object.keys(wilayas).map(key => (
-            //TODO: change the link URL to search with the desired wilayas
             <Link
               to={`/search?wilaya=${key}`}
               key={key}
@@ -73,14 +71,15 @@ export default function Home () {
                 courseName={course[`${currentLangCode}`]['title']}
                 type={`${course[currentLangCode]['faculty']} - ${course[currentLangCode]['fieldOfStudy']}`}
                 downloadLink={course.link}
+                classname={style.courseCard}
               />
             )
           })}
         </div>
       </section>
 
-      {/* TODO: COLLECTION TIME */}
-      <section className={`${style.collections} b-whiteBlue`}>
+      {/* COLLECTIONS */}
+      {/* <section className={`${style.collections} b-whiteBlue`}>
         <header className={`${style.header}`}>
           <p className={`${style.sectionTitle} titleHeaderL black`}>
             {t('collection.title')}
@@ -97,7 +96,7 @@ export default function Home () {
             />
           ))}
         </div>
-      </section>
+      </section> */}
     </main>
   )
 }

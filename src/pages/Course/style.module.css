@@ -1,3 +1,4 @@
+/** @format */
 .CourseProfile {
   padding: 25px;
 }
@@ -45,6 +46,17 @@
 .CourseProfile .courseInfo .rightSide .about {
   padding: 25px 0;
 }
+@media screen and (max-width: 900px) {
+  .CourseProfile .courseInfo {
+    flex-direction: column;
+  }
+  .CourseProfile .courseInfo .leftSide {
+    width: 100%;
+  }
+  .CourseProfile .courseInfo .rightSide {
+    width: 100%;
+  }
+}
 .CourseProfile .suggestion {
   padding: 20px;
   margin-top: 25px;
@@ -65,4 +77,14 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
+}
+@media screen and (max-width: 1200px) {
+  .CourseProfile .suggestion .cards .card {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 1200px) and (max-width: 600px) {
+  .CourseProfile .suggestion .cards .card {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.module.css.map */

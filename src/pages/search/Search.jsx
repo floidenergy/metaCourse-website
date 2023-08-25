@@ -25,7 +25,7 @@ export default function Search () {
 
   const queryRegex = new RegExp(params.get('searchQuery') || '', 'i')
 
-  useEffect(() => { 
+  useEffect(() => {
     if (params.get('wilaya')) setWilayasFilter(params.get('wilaya'))
     if (params.get('faculty')) setFacultiesFilter(params.get('faculty'))
     if (params.get('field')) setFieldsFilter(params.get('field'))
@@ -67,6 +67,7 @@ export default function Search () {
     }
 
     setSearchResult(result)
+    setPages(0)
   }, [wilayasFilter, facultiesFilter, fieldsFilter, yearsFilter])
 
   return (

@@ -56,6 +56,17 @@ footer .contactContainer .subContainer .info .socialMedia a svg {
   width: 3em;
   height: 3em;
 }
+@media screen and (max-width: 1200px) {
+  footer .contactContainer .subContainer {
+    flex-direction: column;
+    gap: 4em;
+    align-items: center;
+    text-align: center;
+  }
+  footer .contactContainer .subContainer img {
+    width: 65%;
+  }
+}
 footer .copyrights {
   padding: 25px 0;
   text-transform: capitalize;

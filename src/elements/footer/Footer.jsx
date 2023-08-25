@@ -33,7 +33,7 @@ export default function Footer () {
       <hr />
       <div className={style.contactContainer}>
         <div className={style.subContainer}>
-          <img src='./logo.svg' alt='' />
+          <img src='./logo_white.svg' alt='' />
           <div className={style.info}>
             <p>
               <BsFillEnvelopeAtFill />
@@ -48,7 +48,7 @@ export default function Footer () {
               &nbsp;{t('website.address')}
             </p>
             <div className={style.socialMedia}>
-              {/* TODO: Add links to social media */}
+              {/*Add links to social media */}
               <Link to={'https://facebook.com/'} target='_blank'>
                 <BsFacebook />
               </Link>

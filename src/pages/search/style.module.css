@@ -62,6 +62,16 @@
 .searchPage .coursesPages .coursesCardsContainer .card {
   width: 32%;
 }
+@media screen and (max-width: 1200px) {
+  .searchPage .coursesPages .coursesCardsContainer .card {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 1200px) and (max-width: 600px) {
+  .searchPage .coursesPages .coursesCardsContainer .card {
+    width: 100%;
+  }
+}
 .searchPage .coursesPages .pagesButtons {
   text-align: center;
 }
@@ -78,4 +88,16 @@
   font-weight: bolder;
   font-size: xx-large;
   text-align: center;
+}
+@media screen and (max-width: 1200px) {
+  .searchPage {
+    flex-direction: column;
+    gap: 5em;
+  }
+  .searchPage .filterBar {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
 }/*# sourceMappingURL=style.module.css.map */

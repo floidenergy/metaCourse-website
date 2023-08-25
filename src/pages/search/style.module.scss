@@ -32,13 +32,14 @@
 					input {
 						margin: 0 5px;
 					}
-					p{
+					p {
 						display: inline;
 						text-transform: capitalize;
 					}
 				}
 			}
 		}
+		
 	}
 	.coursesPages {
 		border-radius: 10px;
@@ -62,6 +63,13 @@
 			padding: 25px 0;
 			.card {
 				width: 32%;
+				@media screen and (max-width: 1200px) {
+					width: 48%;
+
+					@media screen and (max-width: 600px) {
+						width: 100%;
+					}
+				}
 			}
 		}
 		.pagesButtons {
@@ -82,4 +90,14 @@
 			}
 		}
 	}
+	@media screen and (max-width: 1200px) {
+		flex-direction: column;
+		gap: 5em;
+		.filterBar{
+			position: relative;
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+		}
+	}	
 }
