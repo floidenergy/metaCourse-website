@@ -28,15 +28,18 @@
   top: 0;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 10px;
   padding: 0 30px;
 }
 .navBar .navLogo {
   height: 100%;
-  padding: 5px 5px 5px 50px;
-  width: 33.3333333333%;
+  padding: 5px 5px 5px 5px;
+  max-width: -moz-min-content;
+  max-width: min-content;
 }
 .navBar .navLogo img {
+  padding: 10px 0;
   height: 100%;
 }
 .navBar .navSearchBar {
@@ -57,9 +60,6 @@
   border: none;
   font-family: Poppins;
   outline: none;
-}
-.navBar .navList {
-  width: 33.3333333333%;
 }
 .navBar .navList ul {
   display: flex;

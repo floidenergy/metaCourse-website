@@ -78,7 +78,7 @@ export default function Search () {
   return (
     <main className={style.searchPage + ' b-whiteBlue'}>
       <Helmet>
-        <title>{t('website.name')} | {params.get('searchQuery')}</title>
+        <title>{t('website.name')} | {params.has('searchQuery') ? params.get('searchQuery') : ""}</title>
       </Helmet>
       <aside className={style.filterBar + ' b-white'}>
         <div className={style.univ}>

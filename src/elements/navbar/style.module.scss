@@ -30,13 +30,17 @@
 	top: 0;
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	gap: 10px;
 	padding: 0 30px;
 	.navLogo {
 		height: 100%;
-		padding: 5px 5px 5px 50px;
-		width: calc(100% / 3);
+		padding: 5px 5px 5px 5px; // to 5px, 5px, 5px, 50px later
+		// padding: auto;
+		// width: calc(100% / 3);
+		max-width: min-content;
 		img {
+			padding: 10px 0;
 			height: 100%;
 		}
 	}
@@ -62,7 +66,7 @@
 		}
 	}
 	.navList {
-		width: calc(100% / 3);
+		// width: calc(100% / 3);
 		ul {
 			display: flex;
 			flex-direction: row;

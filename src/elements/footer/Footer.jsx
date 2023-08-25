@@ -17,7 +17,7 @@ export default function Footer () {
 
   return (
     <footer className='b-green white'>
-      <div className={style.navContainer}>
+      {/* <div className={style.navContainer}>
         <ul>
           <li>
             <Link to={'/search'}>{t('navbar.Categories')} </Link>
@@ -30,7 +30,7 @@ export default function Footer () {
           </li>
         </ul>
       </div>
-      <hr />
+      <hr /> */}
       <div className={style.contactContainer}>
         <div className={style.subContainer}>
           <img src='./logo_white.svg' alt='' />

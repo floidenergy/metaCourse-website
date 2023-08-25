@@ -85,7 +85,7 @@ export default function Navbar () {
 
         <div className={style.navList}>
           <ul>
-            <li>
+            {/* <li>
               <Link to={'/search'}>{t('navbar.Categories')} </Link>
             </li>
             <li>
@@ -93,7 +93,7 @@ export default function Navbar () {
             </li>
             <li>
               <Link to={'/contactUs'}>{t('navbar.ContactUs')}</Link>
-            </li>
+            </li> */}
             <li>
               <div lang={currentLanguageCode} className={style.langDropdown}>
                 <AiOutlineGlobal />
