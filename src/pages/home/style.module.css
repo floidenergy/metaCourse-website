@@ -43,6 +43,8 @@
     color: white;
   }
   .hero .heroDescription {
+    padding: 90px 0;
+    color: #fff;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -89,7 +91,7 @@
 }
 
 .explore {
-  padding: 5rem 8rem;
+  padding: 5rem 4rem;
 }
 .explore .header {
   margin-bottom: 25px;
