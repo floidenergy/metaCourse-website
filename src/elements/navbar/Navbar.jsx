@@ -41,7 +41,6 @@ export default function Navbar () {
       if (MobNav && MobNav.current && !MobNav.current.contains(event.target)) {
         setShowNavBar(false)
       }
-      console.log('click outside')
     }
     document.addEventListener('mousedown', handleClickOutside)
 

@@ -38,13 +38,19 @@ export default function Course () {
           course[currentLangCode].fieldOfStudy
       )
     )
+    window.scroll({top: 0, behavior: 'smooth'})
   }, [course, currentLangCode])
 
   return (
     <main className={`${style.CourseProfile} b-whiteBlue`}>
       <Helmet>
-        <title>{course[currentLangCode].title} | {t('website.name')}</title>
-        <meta name='description' content={course[currentLangCode].description}/>
+        <title>
+          {course[currentLangCode].title} | {t('website.name')}
+        </title>
+        <meta
+          name='description'
+          content={course[currentLangCode].description}
+        />
       </Helmet>
       <section className={`${style.courseInfo} b-white`}>
         <div className={style.leftSide}>
@@ -54,7 +60,9 @@ export default function Course () {
           </Link>
         </div>
         <div className={style.rightSide}>
-          <p className={`${style.title} black`}>{course[currentLangCode].title}</p>
+          <p className={`${style.title} black`}>
+            {course[currentLangCode].title}
+          </p>
           <p className={`${style.faculty} gray`}>
             {course[currentLangCode].faculty} -{' '}
             {course[currentLangCode].fieldOfStudy} (
@@ -88,18 +96,22 @@ export default function Course () {
           </Link>
         </header>
         <div className={style.cards}>
-          {wilayasCourse.slice(0, 4).map((item, index) => (
-            <CourseCard
-              key={index}
-              id={item.id}
-              tags={item[currentLangCode].tags}
-              thumbnail={item.thumbnail}
-              downloadCount={item.downloadCount}
-              courseName={item[currentLangCode].title}
-              type={`${item[currentLangCode].faculty} - ${item[currentLangCode].fieldOfStudy} - (${item[currentLangCode].wilaya})`}
-              classname={style.card}
-            />
-          ))}
+          {wilayasCourse.slice(0, 4).map((item, index) => {
+            return item.id != params.get('id') ? (
+              <CourseCard
+                key={index}
+                id={item.id}
+                tags={item[currentLangCode].tags}
+                thumbnail={item.thumbnail}
+                downloadCount={item.downloadCount}
+                courseName={item[currentLangCode].title}
+                type={`${item[currentLangCode].faculty} - ${item[currentLangCode].fieldOfStudy} - (${item[currentLangCode].wilaya})`}
+                classname={style.card}
+              />
+            ) : (
+              <></>
+            )
+          })}
         </div>
       </section>
       <section className={`${style.suggestion} b-white`}>
@@ -113,18 +125,22 @@ export default function Course () {
           </Link>
         </header>
         <div className={style.cards}>
-          {facultyCourse.slice(0, 4).map((item, index) => (
-            <CourseCard
-              key={index}
-              id={item.id}
-              tags={item[currentLangCode].tags}
-              thumbnail={item.thumbnail}
-              downloadCount={item.downloadCount}
-              courseName={item[currentLangCode].title}
-              type={`${item[currentLangCode].faculty} - ${item[currentLangCode].fieldOfStudy} - (${item[currentLangCode].wilaya})`}
-              classname={style.card}
-            />
-          ))}
+          {facultyCourse.slice(0, 4).map((item, index) => {
+            return item.id != params.get('id') ? (
+              <CourseCard
+                key={index}
+                id={item.id}
+                tags={item[currentLangCode].tags}
+                thumbnail={item.thumbnail}
+                downloadCount={item.downloadCount}
+                courseName={item[currentLangCode].title}
+                type={`${item[currentLangCode].faculty} - ${item[currentLangCode].fieldOfStudy} - (${item[currentLangCode].wilaya})`}
+                classname={style.card}
+              />
+            ) : (
+              <></>
+            )
+          })}
         </div>
       </section>
       <section className={`${style.suggestion} b-white`}>
@@ -138,18 +154,22 @@ export default function Course () {
           </Link>
         </header>
         <div className={style.cards}>
-          {fieldCourse.slice(0, 4).map((item, index) => (
-            <CourseCard
-              key={index}
-              id={item.id}
-              tags={item[currentLangCode].tags}
-              thumbnail={item.thumbnail}
-              downloadCount={item.downloadCount}
-              courseName={item[currentLangCode].title}
-              type={`${item[currentLangCode].faculty} - ${item[currentLangCode].fieldOfStudy} - (${item[currentLangCode].wilaya})`}
-              classname={style.card}
-            />
-          ))}
+          {fieldCourse.slice(0, 4).map((item, index) => {
+            return item.id != params.get('id') ? (
+              <CourseCard
+                key={index}
+                id={item.id}
+                tags={item[currentLangCode].tags}
+                thumbnail={item.thumbnail}
+                downloadCount={item.downloadCount}
+                courseName={item[currentLangCode].title}
+                type={`${item[currentLangCode].faculty} - ${item[currentLangCode].fieldOfStudy} - (${item[currentLangCode].wilaya})`}
+                classname={style.card}
+              />
+            ) : (
+              <></>
+            )
+          })}
         </div>
       </section>
     </main>
