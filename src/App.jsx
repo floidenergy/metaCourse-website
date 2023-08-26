@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import { BrowserRouter, Router, Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
 import NavBar from './elements/navbar/Navbar'
@@ -19,10 +19,10 @@ export default function App () {
       <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/Search' element={<Search />} />
-        <Route path='/Course' element={<Course />} />
-        
-        <Route path='/*' element={<NotFound/>} />
+        <Route path='Search' element={<Search />} />
+        <Route path='Course' element={<Course />} />
+
+        <Route path='*' element={<NotFound />} />
       </Routes>
       <Footer />
     </>
