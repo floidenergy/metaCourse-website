@@ -54,7 +54,7 @@ export default function Course () {
           </Link>
         </div>
         <div className={style.rightSide}>
-          <p className={style.title}>{course[currentLangCode].title}</p>
+          <p className={`${style.title} black`}>{course[currentLangCode].title}</p>
           <p className={`${style.faculty} gray`}>
             {course[currentLangCode].faculty} -{' '}
             {course[currentLangCode].fieldOfStudy} (
@@ -71,7 +71,7 @@ export default function Course () {
             <p className={`${style.header} green underlined bold`}>
               {t('coursePage.descriptionTitle')}:
             </p>
-            <p className={style.description}>
+            <p className={`${style.description} black`}>
               {course[currentLangCode].description}
             </p>
           </div>
