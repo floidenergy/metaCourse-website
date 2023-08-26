@@ -24,7 +24,7 @@ export default function Home () {
   return (
     <main>
       <header className={style.hero}>
-        <div className={style.heroDescription}>
+        <div className={`${style.heroDescription} black`}>
           <h2 className={style.title}>{t('hero.title')}</h2>
           <p className={style.description}>{t('hero.description')}</p>
           <Link className='button b-green white' to={'/search'}>

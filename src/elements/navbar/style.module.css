@@ -55,6 +55,7 @@
   border-radius: 20px;
 }
 .navBar .navSearchBar form div input {
+  background-color: transparent;
   padding: 5px;
   width: 100%;
   border: none;

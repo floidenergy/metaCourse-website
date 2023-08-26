@@ -98,7 +98,7 @@ export default function Navbar () {
               <div lang={currentLanguageCode} className={style.langDropdown}>
                 <AiOutlineGlobal />
                 <ul className={style.dropdownMenue}>
-                  {langs.map(({ code, name, flag_code }, index) => (
+                  {langs.map(({ code, flag_code }, index) => (
                     <li key={index}>
                       <button
                         type='button'
