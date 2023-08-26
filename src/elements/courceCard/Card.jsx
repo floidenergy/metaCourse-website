@@ -32,7 +32,7 @@ export default function CourseCard ({
             <BsFillSaveFill />&nbsp; {downloadCount || 0}
         </p>
       </div>
-      <h3 className={`${style.cardTitle}`}>{courseName}</h3>
+      <h3 className={`${style.cardTitle} black`}>{courseName}</h3>
       <p className={`${style.cardDetail} gray`}>
         <span role='img'>📚</span>&nbsp;{type}&emsp;
       </p>
